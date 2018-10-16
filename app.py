@@ -102,6 +102,5 @@ for i in range(len(staff)):
         if sales[i]['salesperson'] == staff[i]['id']:
             if sales[i]['salesperson'] not in sales_information_person:
                 sales_information_person[staff[i]['first_name']] = 1
-                sales_information_person[staff[i]['salesperson']] = 1
             else:
                 sales_information_person[staff[i]['first_name']] += 1
